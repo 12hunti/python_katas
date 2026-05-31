@@ -1,4 +1,4 @@
-** start of main.py **
+# Using if, elif, else statements
 
 distance_mi = 1
 is_raining = False
@@ -22,6 +22,4 @@ else:
     else:
         print('False')
     
-
-** end of main.py **
 
