@@ -91,4 +91,17 @@ def create_spend_chart(categories):
     return chart
 
 
+food = Category("Food")
+food.deposit(1000, "initial deposit")
+food.withdraw(150.15, "groceries")
+food.withdraw(50.89, "restaurant")
 
+clothing = Category("Clothing")
+clothing.deposit(500)
+clothing.withdraw(25.55)
+
+auto = Category("Auto")
+auto.deposit(1000)
+auto.withdraw(200)
+
+print(create_spend_chart([food, clothing, auto]))
